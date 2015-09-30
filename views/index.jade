@@ -1,5 +1,5 @@
 extends layout
 
 block content
-  h1 Resume Generator
-  p Welcome to #{title}
+  if profile
+    img(src=profile.pictureUrl)
